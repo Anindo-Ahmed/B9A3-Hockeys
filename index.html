@@ -34,7 +34,7 @@
 </head>
 <body class="font-manrope">
   <header>
-    <nav class="container mx-auto lg:mt-12 lg:px-14">
+    <nav class="container mx-auto lg:mt-12 lg:px-5">
         <div class="navbar">
             <div class="navbar-start">
               <div class="dropdown">
@@ -49,11 +49,11 @@
                   <li><a>Contact</a></li>
                 </ul>
               </div>
-              <a class="text-xl">Hockey’s</a>
+              <a class="text-2xl lg:text-4xl font-extrabold">Hockey<span class="text-[#FF4240] font-extrabold">’</span>s</a>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
-                <li><a>Home</a></li>
+                <li><a><span class="text-[#FF4240] font-bold">Home</span></a></li>
                   <li><a>About</a></li>
                   <li><a>Pages</a></li>
                   <li><a>Blog</a></li>
@@ -61,21 +61,22 @@
               </ul>
             </div>
             <div class="navbar-end">
-              <button class="btn bg-[#FF4240] text-white">Get Ticket</button>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden lg:block" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+              <button class="btn bg-[#FF4240] text-white text-base lg:text-xl font-bold py-2 px-4 lg:px-6">Get Ticket</button>
             </div>
           </div>
     </nav>
   </header>
   <main>
       <!--Carousel Banner -->
-      <section class="container mx-auto lg:mt-14 lg:px-14 px-8">
+      <section class="container mx-auto lg:mt-14 p-5">
         <div class="carousel w-full">
           <div id="slide1" class="carousel-item relative w-full">
             <img src="./images/1.png" class="w-full lg:h-[550px] h-[auto] rounded-2xl" />
             <div class="absolute flex justify-start transform  left-5 right-5 bottom-6 gap-3">
               <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a> 
               <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
-              <div class="bg-black p-4 w-[300px] lg:w-[500px] lg:p-8 rounded-2xl absolute right-0 bottom-0">
+              <div class="bg-black p-4 w-[300px] lg:w-[500px] lg:p-8 rounded-2xl absolute right-0 bottom-0 hidden lg:block">
                 <h2 class="text-white font-extrabold text-2xl mb-2 lg:mb-4">Meet all the heroes from the field</h2>
                 <p class="font-medium text-[#ffffff99]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
               </div>
@@ -95,49 +96,52 @@
               <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
             </div>
           </div> 
-          
         </div> 
+        <div class="bg-black p-4 w-full rounded-2xl lg:hidden">
+          <h2 class="text-white font-extrabold text-lg mb-2">Meet all the heroes from the field</h2>
+          <p class="font-medium text-sm text-[#ffffff99]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
       </section>
       <!-- Professional Hockey Club -->
-      <section class="container mx-auto ">
-        <div class="lg:mt-24 lg:px-14 px-8">
+      <section class="container mx-auto p-5">
+        <div class="lg:mt-24 lg:px-14 ">
             <div class="flex flex-col w-full">
                 <div class="divider m-0"></div> 
             </div>
-            <h2 class="font-medium mx-auto w-full font-extrabold lg:text-4xl text-xl text-center lg:mb-6 mb-4 mt-8">Professional Hockeys Club</h2>
-            <p class="mx-auto text-sm lg:text-base w-full lg:w-[600px] text-center lg:mb-8">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            <h2 class="font-medium mx-auto w-full font-extrabold lg:text-4xl text-xl text-center lg:mb-6 mb-4 mt-6 lg:mt-8">Professional Hockeys Club</h2>
+            <p class="mx-auto text-sm lg:text-base w-full lg:w-[600px] text-center mb-6 lg:mb-8">A professional hockey club is a team or organization that competes in a top-tier hockey league, showcasing elite talent and skill in the sport. These clubs are part of established hockey leagues around the world, such as the National Hockey League (NHL) in North America, the Kontinental Hockey League (KHL) in Russia, or the Swedish Hockey League (SHL) in Sweden.</p>
             <div class="flex flex-col w-full">
                 <div class="divider m-0"></div> 
             </div>
         </div>
-        <div class="grid grid-cols-1 text-center md:grid-cols-2 lg:grid-cols-4 lg:mt-6">
+        <div class="grid grid-cols-1 text-center md:grid-cols-2 lg:grid-cols-4 mt-6 lg:mt-12 lg:px-10 lg:gap-6">
             <div class="flex flex-col items-center">
               <div class="relative mb-6">
-                <div class="radial-progress text-[#FF4240]" style="--value:87; --size:7.5rem; --thickness: 1rem;" role="progressbar">87%</div>
+                <div class="radial-progress text-[#FF4240]" style="--value:87; --size:7.5rem; --thickness: 1rem;" role="progressbar"><span class="font-extrabold text-3xl text-black">87%</span></div>
               </div>
                 <h4 class="text-xl font-semibold mb-4">Prayer Facility</h4>
-                <p class="w-full lg:w-[250px] mb-6">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                <p class="w-full lg:w-64 mb-6">Professional hockey clubs boast a roster of highly skilled and specialized players, including forwards, defensemen, and goaltenders. The team's success often relies on the individual talents and collective efforts of these athletes.</p>
             </div>
             <div class="flex flex-col items-center">
               <div class="relative mb-6">
-                <div class="radial-progress text-[#49D293]" style="--value:97; --size:7.5rem; --thickness: 1rem;" role="progressbar">97%</div>
+                <div class="radial-progress text-[#49D293]" style="--value:97; --size:7.5rem; --thickness: 1rem;" role="progressbar"><span class="font-extrabold text-3xl text-black">97%</span></div>
               </div>
-                <h4 class="text-xl font-semibold mb-4">Prayer Facility</h4>
-                <p class="w-full lg:w-[250px] mb-6">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                <h4 class="text-xl font-semibold mb-4">Experienced Coach</h4>
+                <p class="w-full lg:w-64 mb-6">A coaching staff, led by a head coach, is responsible for strategizing, training, and guiding the team. The coaching staff plays a crucial role in developing game plans, analyzing opponents, and refining the skills of the players.</p>
             </div>
             <div class="flex flex-col items-center">
               <div class="relative mb-6">
-                <div class="radial-progress text-[#FFB546]" style="--value:90; --size:7.5rem; --thickness: 1rem;" role="progressbar">90%</div>
+                <div class="radial-progress text-[#FFB546]" style="--value:90; --size:7.5rem; --thickness: 1rem;" role="progressbar"><span class="font-extrabold text-3xl text-black">90%</span></div>
               </div>
-                <h4 class="text-xl font-semibold mb-4">Prayer Facility</h4>
-                <p class="w-full lg:w-[250px] mb-6">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                <h4 class="text-xl font-semibold mb-4">Senior Player</h4>
+                <p class="w-full lg:w-64 mb-6">Senior players are a vital aspect of any professional sports team, including hockey clubs. Devoted fan bases support their teams passionately, attending games, wearing team merchandise, and engaging in various fan-related activities, contributing to the club's identity and atmosphere.</p>
             </div>
             <div class="flex flex-col items-center">
                 <div class="relative mb-6">
-                  <div class="radial-progress text-[#4C8DF1]" style="--value:80; --size:7.5rem; --thickness: 1rem;" role="progressbar">80%</div>
+                  <div class="radial-progress text-[#4C8DF1]" style="--value:80; --size:7.5rem; --thickness: 1rem;" role="progressbar"><span class="font-extrabold text-3xl text-black">80%</span></div>
                 </div>
-                <h4 class="text-xl font-semibold mb-4">Prayer Facility</h4>
-                <p class="w-full lg:w-[250px] mb-6">Amet consectetur. Condimentum dignissim adipiscing.</p>
+                <h4 class="text-xl font-semibold mb-4">Training Ground</h4>
+                <p class="w-full lg:w-64 ">Each professional hockey club typically has a designated home arena where they host their home games. These arenas serve as a hub for team activities, fan engagement, and the overall game-day experience.</p>
             </div>
         </div>
       </section>
@@ -147,8 +151,8 @@
           <div class="flex flex-col w-full">
               <div class="divider m-0"></div> 
           </div>
-          <h2 class="font-medium mx-auto w-full font-extrabold lg:text-4xl text-xl text-center lg:mb-6 mb-4 mt-8">Professional Hockeys Club</h2>
-          <p class="mx-auto text-sm lg:text-base w-full lg:w-[600px] text-center lg:mb-8">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+          <h2 class="font-medium mx-auto w-full font-extrabold lg:text-4xl text-xl text-center lg:mb-6 mb-4 mt-8">Program Sections</h2>
+          <p class="mx-auto text-sm lg:text-base w-full lg:w-[600px] text-center lg:mb-8">A hockey club typically offers a variety of programs designed to cater to different age groups, skill levels, and interests within the community. These programs aim to promote the sport of hockey, foster skill development, and create a sense of community engagement. Here are some common programs offered by a hockey club:</p>
           <div class="flex flex-col w-full">
               <div class="divider m-0"></div> 
           </div>
